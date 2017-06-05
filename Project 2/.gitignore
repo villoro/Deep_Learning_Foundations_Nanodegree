@@ -1,0 +1,11 @@
+sublime.sublime-project
+sublime.sublime-workspace
+/Data
+/Graph
+*.pyc
+__pycache__
+/.ipynb_checkpoints
+/cifar-10-batches-py
+cifar-10-python.tar.gz
+*.pickle
+*.p
