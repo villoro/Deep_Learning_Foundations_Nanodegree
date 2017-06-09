@@ -1,0 +1,10 @@
+sublime.sublime-project
+sublime.sublime-workspace
+/Data
+/Graph
+*.pyc
+*.p
+__pycache__
+/.ipynb_checkpoints
+save.*
+checkpoint
