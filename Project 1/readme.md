@@ -16,15 +16,19 @@ Since we are working with timeseries the data is not randomly slplitted. The dat
 * Last 21 days as validation
 * 60 days as test data
 * All remaining data for training
+
 ![predictions](assets/train_test_val.png)
 
 ### 2. Neural network
 The architecture used is simple. We have 59 features that will be directly be passed to a hidden layer with 16 neurons and sigmoid as an activation function. After that if will go to an ouput layer wihout activation that will give us the prediction.
 
 The architecture is similar to the image below.
+
 ![predictions](assets/neural_network_diagram.png)
 
 ## Results
 I am surprised by how well the NN predicts the bike's rentals. As we can see in the image below it is doing a good job for the firsts days (December 11 - 20) but is expecting more rentals between 21 an 31 of December.
+
 ![predictions](assets/predictions.png)
-This is normal since we only have one year of data and Christmas data were not in the training data.
+
+This is normal since we only have one year of data and Christmas data were not in the training data. So the neural network does not have enough data to know that people rent less bikes at the end of the year.
